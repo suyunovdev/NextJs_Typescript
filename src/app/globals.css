@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global Dark Mode Styles */
+body.dark {
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Card Dark Mode Styling */
+body.dark .card {
+  background-color: #1f29377b;
+  color: white;
+  border-color: #1f293724;
+}
+
+body.dark input,
+body.dark select,
+body.dark option {
+  background-color: #3b4c6300 !important;
+  color: white;
+  border-color: #555;
+}
+
+/* Placeholder Styling */
+body.dark input::placeholder,
+body.dark select::placeholder {
+  color: #aaa;
+}
